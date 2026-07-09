@@ -18,10 +18,7 @@
   <!-- Auth & Hub & Inti -->
   <link rel="stylesheet" href="<?= base_url('assets/css/auth.css'); ?>">
   <link rel="stylesheet" href="<?= base_url('assets/css/hub.css'); ?>">
-  <link rel="stylesheet" href="<?= base_url('assets/css/inti.css'); ?>">
   <!-- Profile & Kata Sandi -->
-  <link rel="stylesheet" href="<?= base_url('assets/css/profile.css'); ?>">
-  <link rel="stylesheet" href="<?= base_url('assets/css/patient.css'); ?>">
 </head>
 <body>
   <!-- Variable Kondisional -->

@@ -24,7 +24,7 @@
       <div class="nav-text">WhatsApp</div>
     </a>
     <!-- Profile -->
-    <a href="<?php echo base_url('profile'); ?>" class="nav-link nav-item-float flex-fill <?php echo ($segment == 'profile') ? 'text-primary active' : 'text-secondary'; ?>">
+    <a href="<?php echo base_url('profile'); ?>" class="nav-link nav-item-float flex-fill <?php echo ($segment == 'profile') ? 'text-primary active' : 'text-secondary'; ?>" style="display: none">
       <i class="bi bi-person-circle fs-5"></i>
       <div class="nav-text">Profile</div>
     </a>
