@@ -1,0 +1,159 @@
+:root {
+  --color-primary-50:  #FFF0F5;
+  --color-primary-100: #FFD6E7;
+  --color-primary-400: #FF85A2;
+  --color-primary-600: #C94B72;
+  --color-primary-900: #7B1E3F;
+
+  --color-success-50:  #F0FFF4;
+  --color-success-200: #C6F6D5;
+  --color-success-500: #48BB78;
+  --color-success-700: #276749;
+
+  --color-info-50:  #F0F9FF;
+  --color-info-200: #BAE6FD;
+  --color-info-500: #63B3ED;
+  --color-info-700: #1e6fa8;
+
+  --color-warning-50:  #FFFBEB;
+  --color-warning-200: #FDE68A;
+  --color-warning-500: #F6AD55;
+  --color-warning-700: #92610a;
+
+  --color-danger-50:  #FFF1F0;
+  --color-danger-200: #FECACA;
+  --color-danger-500: #FC8181;
+  --color-danger-700: #c0392b;
+
+  --color-bg:          #F8FAFC;
+  --color-surface:     #FFFFFF;
+  --color-surface-alt: #F1F5F9;
+  --color-border:      #E2E8F0;
+  --color-text-primary:   #334155;
+  --color-text-secondary: #64748B;
+  --color-text-muted:     #94A3B8;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  --shadow-sm: 0 1px 3px rgba(100, 116, 139, 0.08);
+  --shadow-md: 0 4px 16px rgba(100, 116, 139, 0.12);
+  --shadow-lg: 0 16px 40px rgba(100, 116, 139, 0.15);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.app-content {
+  padding-bottom: 88px;
+}
+
+.logout-modal {
+  border: 0;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-lg);
+}
+
+.logout-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 16px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary-50);
+  color: var(--color-primary-600);
+  font-size: 1.5rem;
+}
+
+.logout-title {
+  margin-bottom: 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.logout-message {
+  margin: 0 auto;
+  max-width: 320px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.logout-progress {
+  height: 5px;
+  margin: 22px auto 10px;
+  max-width: 260px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--color-border);
+}
+
+.logout-progress-bar {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  background: var(--color-primary-400);
+  animation: logoutCountdown 4s linear forwards;
+}
+
+.logout-small {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+@keyframes logoutCountdown {
+  from { width: 100%; }
+  to   { width: 0%; }
+}
+
+.btn-primary {
+  background-color: var(--color-primary-600);
+  border-color: var(--color-primary-600);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--color-primary-900);
+  border-color: var(--color-primary-900);
+}
+
+.btn-outline-primary {
+  color: var(--color-primary-600);
+  border-color: var(--color-primary-400);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--color-primary-50);
+  color: var(--color-primary-600);
+  border-color: var(--color-primary-600);
+}
+
+.badge.bg-success { 
+  background-color: var(--color-success-500) !important; 
+}
+
+.badge.bg-danger  { 
+  background-color: var(--color-danger-500) !important; 
+}
+
+.badge.bg-warning { 
+  background-color: var(--color-warning-500) !important; 
+  color: var(--color-warning-700) !important; 
+}
+
+.badge.bg-info { 
+  background-color: var(--color-info-500) !important; 
+}

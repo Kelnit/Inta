@@ -1,5 +1,5 @@
 <?php
-// All In
+// Aplikasi Pengaturan
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*

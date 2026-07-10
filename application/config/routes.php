@@ -1,5 +1,5 @@
 <?php
-// Alur
+// Define Halaman Default Controller & 404 Page Not Found & Translate URI Dashes
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*

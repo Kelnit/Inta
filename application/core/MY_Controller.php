@@ -1,7 +1,7 @@
 <?php
 
 class OutController extends CI_Controller {
-  // Init Controller
+  // Init Controller : Auth Controller
   public function __construct() {
     // Base Controller Init
     parent::__construct();
@@ -9,7 +9,7 @@ class OutController extends CI_Controller {
 }
 
 class MainController extends CI_Controller {
-  // Init Controller
+  // Init Controller : Internal Controller
   public function __construct() {
     // Base Controller Init
     parent::__construct();
