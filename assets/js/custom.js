@@ -21,7 +21,7 @@ function initvalidate(passwordId, confirmId, errorId) {
   confirm.addEventListener('input', function () {
     const pass = document.getElementById(passwordId).value;
     if (this.value && this.value !== pass) {
-      error.textContent = 'Password tidak sama.';
+      error.textContent = 'Password Tidak Sama !';
       error.style.color = 'var(--color-danger-700)';
       error.style.fontSize = '0.82rem';
     } else {
