@@ -1,5 +1,5 @@
 <?php
-// Authentication Controller
+// Authentication Controller : Sign In, Sign Up, Sign Out, & Publish Data User
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Auth extends OutController {
@@ -22,6 +22,7 @@ class Auth extends OutController {
       $pwd = trim($this->input->post('password'));
       if ($nik && $pwd){
         $result = $this->authmodel->login($nik, $pwd);
+        // Kalau User Sign In : Berhasil
         if ($result && $result['isactive'] == 1) {
           $sessiondata = array(
             'id' => $result['id'],
@@ -35,11 +36,13 @@ class Auth extends OutController {
           $message = "Selamat Datang !";
           alerta('success', $message);
           redirect(base_url('hub'));
+        // Kalau User Sign In Gagal | User Tidak Aktif
         } else {
           $message = "Login Gagal, Pastikan NIK dan Password Benar !";
           alerta('error', $message);
           return redirect(base_url());
         }
+      // Kalau Input Kosong
       } else {
         $message = "Login Gagal, Pastikan Semua Kolom Terisi !";
         alerta('error', $message);

@@ -1,5 +1,5 @@
 <?php
-// Data
+// Pengaturan Database CodeIgniter 3.1.13
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*

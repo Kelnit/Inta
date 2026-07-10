@@ -1,5 +1,5 @@
 <?php
-// Autoload
+// Autoload Fitur Helper, Library, Model, Config, Language, Driver & Package Internal & Custom
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*

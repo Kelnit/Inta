@@ -46,6 +46,7 @@ function userids(){
 }
 
 function indodate($format = 'full') {
+  // Tanggal Helper : Format Full, Short, Day, Month
   $hari  = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
   $bulan = ['','Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
   $hr  = $hari[(int)date('w')];

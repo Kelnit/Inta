@@ -1,5 +1,5 @@
 <?php
-// Hub Controller
+// Hub Controller : Halaman Main, Dashboard, & Panel
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Hub extends MainController {
