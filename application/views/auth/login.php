@@ -18,6 +18,7 @@
         <div class="icon-box-fancy mb-4 mx-auto shadow">
           <i class="bi bi-person-heart text-white fs-1"></i>
         </div>
+        <!-- Title -->
         <h2 class="fw-black text-dark mb-1">Selamat Datang</h2>
         <p class="text-secondary small">Monitoring Kesehatan Pasca Kemoterapi</p>
       </div>

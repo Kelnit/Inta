@@ -14,6 +14,7 @@
         <div class="icon-box-fancy mb-4 mx-auto shadow bg-success-gradient">
           <i class="bi bi-person-plus-fill text-white fs-1"></i>
         </div>
+        <!-- Title -->
         <h2 class="fw-black text-dark mb-1">Buat Akun Baru</h2>
         <p class="text-secondary small">Mulai Pantau Pemulihan Anda Secara Digital</p>
       </div>
